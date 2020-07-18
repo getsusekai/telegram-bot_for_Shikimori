@@ -115,7 +115,7 @@ async def fav_end(call: CallbackQuery, state: FSMContext):
         '_Оценка:_ {}\n'
         '_Количество эпизодов:_ {}\n'
         '_Дата выхода:_ {}\n'
-        '_Открыть на сайте:* shikimori.one{}\n'
+        '_Открыть на сайте:_ shikimori.one{}\n'
         '_Описание:_ {}'.format(
             ani['russian'], ani['name'], ani['kind'], status[ani['status']],
             genres.rstrip(','), ani['score'], ani['episodes'], ani['aired_on'],
